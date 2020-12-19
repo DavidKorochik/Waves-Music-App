@@ -1,0 +1,22 @@
+body.dark-mode {
+   background-color: rgb(48, 47, 47); 
+   color: white;
+   transition: 0.5s;
+   h1, h2, h5,  button {
+       color: white;
+   }
+}
+
+body.light-mode {
+    background-color: white; 
+    transition: 0.5s;
+ }
+
+.button-theme {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.3rem;
+    button {
+        font-size: 1rem;
+    }
+}
