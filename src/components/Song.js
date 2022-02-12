@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
 export default function Song({ currentSong, isPlaying }) {
   return (
-    <div className="song-container">
+    <div className='song-container'>
       <img
-        className={isPlaying ? "rotateSong" : ""}
+        className={isPlaying ? 'rotateSong' : ''}
         alt={currentSong.name}
         src={currentSong.cover}
       />
